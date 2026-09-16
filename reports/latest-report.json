@@ -1,0 +1,461 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-16T05:07:51.141Z",
+  "dataset": "evals/dataset.jsonl",
+  "corpus": "fixtures/corpus.jsonl",
+  "summary": {
+    "cases": 22,
+    "passed": 22,
+    "passRate": 1,
+    "retrievalHitAt3": 1,
+    "meanReciprocalRank": 1,
+    "citationPrecision": 1,
+    "citationRecall": 1,
+    "answerPointCoverage": 1,
+    "abstentionAccuracy": 1,
+    "p95LatencyMs": 1.229
+  },
+  "caseResults": [
+    {
+      "id": "files-01",
+      "category": "fact",
+      "difficulty": "easy",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 1.229,
+      "passed": true,
+      "retrievedIds": [
+        "overview-formats",
+        "overview-roles",
+        "ingestion-sync"
+      ],
+      "citedIds": [
+        "overview-formats"
+      ]
+    },
+    {
+      "id": "files-02",
+      "category": "fact",
+      "difficulty": "easy",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 5.517,
+      "passed": true,
+      "retrievedIds": [
+        "overview-formats",
+        "ingestion-sync",
+        "overview-roles"
+      ],
+      "citedIds": [
+        "overview-formats"
+      ]
+    },
+    {
+      "id": "files-03",
+      "category": "condition",
+      "difficulty": "medium",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.362,
+      "passed": true,
+      "retrievedIds": [
+        "overview-formats",
+        "overview-roles",
+        "retrieval-citations"
+      ],
+      "citedIds": [
+        "overview-formats"
+      ]
+    },
+    {
+      "id": "roles-01",
+      "category": "enumeration",
+      "difficulty": "easy",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.43,
+      "passed": true,
+      "retrievedIds": [
+        "overview-roles"
+      ],
+      "citedIds": [
+        "overview-roles"
+      ]
+    },
+    {
+      "id": "roles-02",
+      "category": "permission",
+      "difficulty": "easy",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.544,
+      "passed": true,
+      "retrievedIds": [
+        "overview-roles",
+        "quality-review",
+        "security-retention"
+      ],
+      "citedIds": [
+        "overview-roles"
+      ]
+    },
+    {
+      "id": "roles-03",
+      "category": "permission",
+      "difficulty": "easy",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.312,
+      "passed": true,
+      "retrievedIds": [
+        "overview-roles"
+      ],
+      "citedIds": [
+        "overview-roles"
+      ]
+    },
+    {
+      "id": "sync-01",
+      "category": "fact",
+      "difficulty": "easy",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.341,
+      "passed": true,
+      "retrievedIds": [
+        "ingestion-sync"
+      ],
+      "citedIds": [
+        "ingestion-sync"
+      ]
+    },
+    {
+      "id": "sync-02",
+      "category": "failure",
+      "difficulty": "medium",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.322,
+      "passed": true,
+      "retrievedIds": [
+        "ingestion-sync",
+        "overview-formats",
+        "overview-roles"
+      ],
+      "citedIds": [
+        "ingestion-sync"
+      ]
+    },
+    {
+      "id": "chunk-01",
+      "category": "process",
+      "difficulty": "medium",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.421,
+      "passed": true,
+      "retrievedIds": [
+        "ingestion-chunking",
+        "overview-roles",
+        "security-access"
+      ],
+      "citedIds": [
+        "ingestion-chunking"
+      ]
+    },
+    {
+      "id": "chunk-02",
+      "category": "metadata",
+      "difficulty": "medium",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.43,
+      "passed": true,
+      "retrievedIds": [
+        "ingestion-chunking",
+        "operations-monitoring",
+        "retrieval-citations"
+      ],
+      "citedIds": [
+        "ingestion-chunking"
+      ]
+    },
+    {
+      "id": "search-01",
+      "category": "retrieval",
+      "difficulty": "medium",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.319,
+      "passed": true,
+      "retrievedIds": [
+        "retrieval-hybrid",
+        "security-access",
+        "overview-roles"
+      ],
+      "citedIds": [
+        "retrieval-hybrid"
+      ]
+    },
+    {
+      "id": "search-02",
+      "category": "retrieval",
+      "difficulty": "medium",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.315,
+      "passed": true,
+      "retrievedIds": [
+        "retrieval-hybrid",
+        "operations-latency",
+        "ingestion-chunking"
+      ],
+      "citedIds": [
+        "retrieval-hybrid"
+      ]
+    },
+    {
+      "id": "cite-01",
+      "category": "citation",
+      "difficulty": "medium",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.312,
+      "passed": true,
+      "retrievedIds": [
+        "retrieval-citations",
+        "operations-failures"
+      ],
+      "citedIds": [
+        "retrieval-citations"
+      ]
+    },
+    {
+      "id": "cite-02",
+      "category": "abstention",
+      "difficulty": "easy",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.332,
+      "passed": true,
+      "retrievedIds": [
+        "retrieval-citations",
+        "operations-failures",
+        "operations-latency"
+      ],
+      "citedIds": [
+        "retrieval-citations"
+      ]
+    },
+    {
+      "id": "security-01",
+      "category": "security",
+      "difficulty": "medium",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.305,
+      "passed": true,
+      "retrievedIds": [
+        "security-access",
+        "ingestion-chunking",
+        "retrieval-hybrid"
+      ],
+      "citedIds": [
+        "security-access"
+      ]
+    },
+    {
+      "id": "security-02",
+      "category": "security",
+      "difficulty": "easy",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.355,
+      "passed": true,
+      "retrievedIds": [
+        "security-retention",
+        "ingestion-chunking",
+        "retrieval-hybrid"
+      ],
+      "citedIds": [
+        "security-retention"
+      ]
+    },
+    {
+      "id": "ops-01",
+      "category": "latency",
+      "difficulty": "hard",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.329,
+      "passed": true,
+      "retrievedIds": [
+        "operations-latency",
+        "operations-monitoring",
+        "operations-failures"
+      ],
+      "citedIds": [
+        "operations-latency"
+      ]
+    },
+    {
+      "id": "ops-02",
+      "category": "monitoring",
+      "difficulty": "medium",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.298,
+      "passed": true,
+      "retrievedIds": [
+        "operations-monitoring",
+        "operations-latency",
+        "overview-formats"
+      ],
+      "citedIds": [
+        "operations-monitoring"
+      ]
+    },
+    {
+      "id": "ops-03",
+      "category": "failure",
+      "difficulty": "easy",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.306,
+      "passed": true,
+      "retrievedIds": [
+        "operations-failures",
+        "operations-monitoring",
+        "retrieval-citations"
+      ],
+      "citedIds": [
+        "operations-failures"
+      ]
+    },
+    {
+      "id": "unknown-01",
+      "category": "no-answer",
+      "difficulty": "easy",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.287,
+      "passed": true,
+      "retrievedIds": [],
+      "citedIds": []
+    },
+    {
+      "id": "unknown-02",
+      "category": "no-answer",
+      "difficulty": "easy",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.288,
+      "passed": true,
+      "retrievedIds": [],
+      "citedIds": []
+    },
+    {
+      "id": "review-01",
+      "category": "human-review",
+      "difficulty": "easy",
+      "retrievalHitAtK": 1,
+      "reciprocalRank": 1,
+      "citationPrecision": 1,
+      "citationRecall": 1,
+      "answerPointCoverage": 1,
+      "abstentionCorrect": true,
+      "latencyMs": 0.344,
+      "passed": true,
+      "retrievedIds": [
+        "quality-review"
+      ],
+      "citedIds": [
+        "quality-review"
+      ]
+    }
+  ]
+}
